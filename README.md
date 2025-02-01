@@ -1,1 +1,1 @@
-# BratanaVPN
+# BratanaGamerVPN
