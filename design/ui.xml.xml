@@ -1,0 +1,53 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/neon_background"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Заглавие -->
+    <TextView
+        android:id="@+id/vpnTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BratanaGamerVPN"
+        android:textSize="36sp"
+        android:textColor="#00FF00"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Списък със сървъри -->
+    <Spinner
+        android:id="@+id/serverList"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/neon_spinner"
+        android:layout_marginBottom="24dp"
+        android:padding="8dp"
+        android:dropDownWidth="match_parent"/>
+
+    <!-- Бутон за свързване -->
+    <Button
+        android:id="@+id/connectButton"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:background="@drawable/neon_button"
+        android:text="CONNECT"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Информация за скоростта -->
+    <TextView
+        android:id="@+id/speedInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ping: 0ms | Download: 0Mbps | Upload: 0Mbps"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
