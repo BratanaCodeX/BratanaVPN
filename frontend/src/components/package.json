@@ -1,0 +1,29 @@
+{
+  "name": "bratana-vpn",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "latest",
+    "babel-loader": "^9.2.1",
+    "browserify-zlib": "^0.2.0",
+    "postcss": "^8.5.1",
+    "querystring-es3": "^0.2.1",
+    "resolve-url-loader": "^5.0.0",
+    "stream-browserify": "^3.0.0",
+    "util": "^0.12.5"
+  },
+  "devDependencies": {
+    "react-app-rewired": "^2.2.1"
+  },
+ "scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject"
+}
+
+
+
+
